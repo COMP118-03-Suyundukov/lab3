@@ -40,7 +40,7 @@ int main() {
 
     int choice;
     // Declare array quantity and total
-    int quantity[SIZE], total[9];
+    int quantity[SIZE], total[SIZE];
 
     // Interactive menu
     do {
