@@ -129,6 +129,8 @@ void multArrays(const int arrQuantity[], const int arrPrice[], int arrTotal[], c
     for (int i = 0; i < size; ++i) {
         arrTotal[i] = arrQuantity[i] * arrPrice[i];
     }
+
+	cout << "\nCalculation done successfully.";
 }
 
 /**
