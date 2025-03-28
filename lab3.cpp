@@ -95,7 +95,7 @@ int printMenu() {
         if (choice < 1 || choice > 4) {
             cout << "\nWrong choice, try again.";
         }
-    } while (choice < 1 || choice > 5);
+    } while (choice < 1 || choice > 4);
     return choice;
 }
 
