@@ -64,7 +64,8 @@ int main() {
             // No code needed
             break;
         default:
-            assert(true);
+            // Should never happen
+			assert(false);
         }
     } while (choice != 4);
 
