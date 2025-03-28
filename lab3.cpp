@@ -34,11 +34,11 @@ void avgOddArray(const int[], const int, int&);
  * @return Returns 0 if success, any other value otherwise.
  */
 int main() {
-    int choice;
     const int SIZE = 10;
-
     // Initialize array price
     const int price[SIZE] = { 12, 4, 8, 1, 17, 2, 4, 2, 9, 1 };
+
+    int choice;
     // Declare array quantity and total
     int quantity[SIZE], total[9];
 
