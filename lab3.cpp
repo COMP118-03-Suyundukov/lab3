@@ -143,6 +143,8 @@ void multArrays(const int arrQuantity[], const int arrPrice[], int arrTotal[], c
  * @param size The size of the array.
  */
 void displayArray(const int arr[], const int size) {
+	assert(size > 0);
+
     int sum = 0;
 
     for (int i = 0; i < size; ++i) {
