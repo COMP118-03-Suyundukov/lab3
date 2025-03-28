@@ -113,6 +113,8 @@ void fillInArray(int arr[], const int size) {
         cout << "\nEnter an element for the array at " << i << ": ";
         cin >> arr[i];
     }
+
+	cout << "\nArray filled in successfully.";
 }
 
 /**
