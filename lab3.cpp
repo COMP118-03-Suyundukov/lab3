@@ -118,12 +118,13 @@ void fillInArray(int arr[], const int size) {
 }
 
 /**
- * <code>multArrays</code> multiplies the value of elements of the source array
- * to the corresponding value at the destination array. NOTE: precondition
- * is that the arrays have the same size.
+ * <code>multArrays</code> multiplies the value of elements of the quantity array
+ * to the corresponding value at the price array and stores values in total array.
+ * NOTE: precondition is that the arrays have the same size.
  * <BR>
- * @param arrSource The array containing the destination elements.
- * @param arrDest The array containing the source elements.
+ * @param arrQuantity The array containing quantity.
+ * @param arrPrice The array containing prices.
+ * @param arrTotal The array to store the total.
  * @param size The size of the arrays.
  */
 void multArrays(const int arrQuantity[], const int arrPrice[], int arrTotal[], const int size) {
