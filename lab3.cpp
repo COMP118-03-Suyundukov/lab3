@@ -219,5 +219,9 @@ void avgOddArray(const int arr[], const int size, int& avgOdd) {
         }
     }
 
-    avgOdd = sumOdd / countOdd;
+    if (countOdd == 0) {
+        avgOdd = 0;
+    } else {
+        avgOdd = sumOdd / countOdd;
+    }
 }
