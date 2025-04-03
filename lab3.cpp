@@ -65,7 +65,7 @@ int main() {
             break;
         default:
             // Should never happen
-			assert(false);
+            assert(false);
         }
     } while (choice != 4);
 
@@ -114,7 +114,7 @@ void fillInArray(int arr[], const int size) {
         cin >> arr[i];
     }
 
-	cout << "\nArray filled in successfully.";
+    cout << "\nArray filled in successfully.";
 }
 
 /**
@@ -134,7 +134,7 @@ void multArrays(const int arrQuantity[], const int arrPrice[], int arrTotal[], c
         arrTotal[i] = arrQuantity[i] * arrPrice[i];
     }
 
-	cout << "\nCalculation done successfully.";
+    cout << "\nCalculation done successfully.";
 }
 
 /**
@@ -146,7 +146,7 @@ void multArrays(const int arrQuantity[], const int arrPrice[], int arrTotal[], c
  * @param size The size of the array.
  */
 void displayArray(const int arr[], const int size) {
-	assert(size > 0);
+    assert(size > 0);
 
     int sum = 0;
 
