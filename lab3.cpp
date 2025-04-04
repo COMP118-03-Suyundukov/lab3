@@ -194,13 +194,15 @@ int sumOddArray(const int arr[], const int size) {
 bool isAllPositive(const int arr[], const int size) {
     assert(size > 0);
 
-    for (int i = 0; i < size; i++) {
+    bool result = true;
+
+    for (int i = 0; result && i < size; i++) {
         if (arr[i] < 0) {
-            return false;
+            result = false;
         }
     }
 
-    return true;
+    return result;
 }
 
 /**
