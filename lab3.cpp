@@ -43,7 +43,7 @@ int main() {
 
     int choice;
     // Declare array quantity and total
-    int quantity[SIZE];
+    int quantity[SIZE] = {0};
     double total[SIZE] = {0.0};
 
     // Interactive menu
