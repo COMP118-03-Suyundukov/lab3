@@ -168,6 +168,7 @@ void displayArray(const double arr[][VAT_DIM], const int size) {
         sum += arr[i][WITHOUT_VAT];
         cout << "\nValue (with VAT) at " << i << ": " << arr[i][WITH_VAT];
         sumWithVAT += arr[i][WITH_VAT];
+		cout << "\n";
     }
 
     cout << "\nThe total without VAT is: " << sum;
