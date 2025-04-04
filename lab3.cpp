@@ -59,15 +59,19 @@ int main() {
         case 3:
             displayArray(total, SIZE);
             break;
-            // Exit
+            // All positive
         case 4:
+            cout << "\nAll elements are positive: " << isAllPositive(quantity, SIZE);
+            break;
+            // Exit
+        case 5:
             // No code needed
             break;
         default:
             // Should never happen
             assert(false);
         }
-    } while (choice != 4);
+    } while (choice != 5);
 
     cout << "\nHave a nice day:)" << endl;
     return 0;
@@ -87,7 +91,8 @@ int printMenu() {
         cout << "\n1) Enter quantity";
         cout << "\n2) Calculate total";
         cout << "\n3) Print total";
-        cout << "\n4) Exit";
+        cout << "\n4) Check if all elements are positive";
+        cout << "\n5) Exit";
 
         cout << "\nEnter the choice: ";
         cin >> choice;
