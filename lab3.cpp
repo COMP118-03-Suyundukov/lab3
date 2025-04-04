@@ -180,7 +180,7 @@ int sumOddArray(const int arr[], const int size) {
 }
 
 /**
- * <code>isAllPositive</code> checks if all elements in the array are positive
+ * <code>isAllPositive</code> checks if all elements in the array are bigger or equal to zero
  * <BR>
  * @param arr The array to check
  * @param size The size of the array
