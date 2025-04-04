@@ -26,7 +26,7 @@ const int VAT = 21;
 int printMenu();
 void fillInArray(int[], const int);
 void multArrays(const int[], const int[], int[], const int);
-void displayArray(const int[], const int);
+void displayArray(const double[], const int);
 int sumOddArray(const int[], const int);
 bool isAllPositive(const int[], const int);
 void avgOddArray(const int[], const int, int&);
@@ -43,7 +43,8 @@ int main() {
 
     int choice;
     // Declare array quantity and total
-    int quantity[SIZE], total[SIZE];
+    int quantity[SIZE];
+    double total[SIZE] = {0.0};
 
     // Interactive menu
     do {
@@ -153,7 +154,7 @@ void multArrays(const int arrQuantity[], const int arrPrice[], int arrTotal[], c
  * @param arr The array containing the values
  * @param size The size of the array.
  */
-void displayArray(const int arr[], const int size) {
+void displayArray(const double arr[], const int size) {
     assert(size > 0);
 
     int sum = 0;
