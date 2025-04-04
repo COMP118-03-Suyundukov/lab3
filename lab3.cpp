@@ -14,7 +14,6 @@
  *  \bug       Many logical bugs
  *  \copyright University of Nicosia.
  */
-
 #include <iostream>
 #include <cassert>
 using namespace std;
